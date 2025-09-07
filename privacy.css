@@ -1,0 +1,40 @@
+/* General page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff;            /* White text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container box */
+.container {
+  max-width: 800px;
+  background: #111;  /* Slightly lighter black */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.5);
+}
+
+/* Heading */
+.container h1 {
+  color: #a855f7;  /* Purple */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.container p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Highlighted keywords */
+.highlight {
+  color: #a855f7;   /* Purple */
+  font-weight: bold;
+}
